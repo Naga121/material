@@ -1,0 +1,109 @@
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div style="display: block;background-color: rgba(145, 149, 150, 0.329); border-radius: 50px;padding: 10px;">
+          <canvas baseChart
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType">
+          </canvas>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div style="display: block;background-color: rgba(145, 149, 150, 0.329); border-radius: 50px;padding: 10px;">
+          <canvas baseChart
+                  [data]="doughnutChartData"
+                  [labels]="doughnutChartLabels"
+                  [chartType]="doughnutChartType">
+          </canvas>
+        </div>
+        <div style="display: block ;margin-top: 10px;background-color: rgba(145, 149, 150, 0.329); border-radius: 50px;padding: 10px;">
+          <canvas baseChart
+                  [datasets]="radarChartData"
+                  [labels]="radarChartLabels"
+                  [chartType]="radarChartType">
+          </canvas>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-6">
+        <div class="chart-wrapper" style="display: block ;margin-top: 10px;background-color: rgba(145, 149, 150, 0.329); border-radius: 50px;padding: 10px;">
+          <canvas baseChart
+          [datasets]="bubbleChartData"
+          [options]="bubbleChartOptions"
+          [legend]="bubbleChartLegend"
+          [chartType]="bubbleChartType">
+          </canvas>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div style="display: block ;margin-top: 10px;background-color: rgba(145, 149, 150, 0.329); border-radius: 50px;padding: 10px;">
+          <canvas baseChart
+                  [data]="pieChartData"
+                  [labels]="pieChartLabels"
+                  [chartType]="pieChartType">
+          </canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="page-footer font-small  pt-4">
+    <div class="container-fluid text-center text-md-left bg-dark h-5">
+      <div class="row">
+        <div class="col-md-6 mt-md-5 mt-5">
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h3 class="text-uppercase text-light">Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h3 class="text-uppercase text-light">Links</h3>
+  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3 bg-dark text-info h6">
+      <hr style="border:1px solid white;">
+      © 2020 Copyright:
+      <a href="https://mdbootstrap.com/" class="text-light h5"> NagarajuThota.com</a>
+    </div>
+  </footer>
+  
+  
+  

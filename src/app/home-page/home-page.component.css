@@ -1,0 +1,147 @@
+.grid-container {
+    margin: 20px;
+}
+  
+.dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+}
+  
+.more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+  
+.dashboard-card-content {
+    text-align: center;
+}
+  
+.card {
+    border-radius: 5px;
+    border: 1px solid rgb(233, 233, 240);
+    margin: 20px;
+}
+  .card [class*=card-header-] .card-icon .i{
+      border-radius:4px ;
+      color: aliceblue;
+      padding: 15px;
+      margin-top: -5px;
+      margin-right: 15px;
+      float:left;
+      
+  }
+    
+  .card [class*=card-header-] .card-icon .i1{
+      border-radius:4px ;
+      color: aliceblue;
+      padding: 20px;
+      margin-top: -5px;
+      margin-right: 15px;
+      float:left;
+      
+  }
+#card1{
+    background-color: rgba(49, 30, 224, 0.527);
+    padding: 10px;
+    border-radius: 30px;
+}
+#card2{
+    background-color: rgba(137, 178, 190, 0.842);
+    padding: 10px;
+    border-radius: 30px;
+}
+#card3{
+    background-color: rgb(72, 185, 108);
+    padding: 10px;
+    border-radius: 30px;
+}
+  .widget-icon{
+    font-size: 50px;
+  }
+  h6{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+  
+  }
+  .card 
+  .card-body 
+  .card-title .text1 {
+    color: rgb(170, 73, 194);
+    font-weight:bold ;
+  }
+  .card 
+  .card-body 
+  .card-title .text2{
+    color: rgba(230, 153, 109, 0.836);
+    font-weight: bold;
+  }
+  .card 
+  .card-body 
+  .card-title .text3{
+    color: rgba(223, 37, 68, 0.658);
+    font-weight: bold;
+  }
+  .card 
+  .card-body 
+  .card-title .text4{
+    color: rgb(209, 66, 47);
+    font-weight: bold;
+  }
+  .card 
+  .card-body 
+  .card-title p{
+    color: rgba(129, 105, 105, 0.795);
+    
+  }
+  /*Media object*/
+  .row .media {
+    background-color: rgba(240, 234, 231, 0.959);
+    border-radius: 30px;
+    color: rgb(155, 143, 143);
+    
+  }
+  .row .media h3{
+  
+    color: blue;
+    font-weight: bold;
+  }
+  .page-footer{
+    background-color: rgba(20, 19, 19, 0.808);
+    width: 100%;
+  }
+  .col-md-12 .mb-5 .soc-icon {
+    background-color: rgb(234, 238, 240);
+    font-size: 25px;
+    border-radius: 40px;
+    margin: 5px;
+  }
+  .col-md-12 .mb-5 .soc-icon .icon6{
+    color: rgb(6, 6, 255);
+  }
+  .col-md-12 .mb-5 .soc-icon .icon1{
+    color: rgb(20, 141, 221);
+  }
+  .col-md-12 .mb-5 .soc-icon .icon2{
+    color: rgb(201, 32, 40);
+  }
+  .col-md-12 .mb-5 .soc-icon .icon4{
+    color: rgb(230, 80, 21);
+  }
+  .col-md-12 .mb-5 .soc-icon .icon5{
+    color: rgb(230, 21, 49);
+  }
+  .footer-copyright{
+    color: aliceblue;
+  }
+  ngb-carousel{
+    margin: 50px;
+    
+  }
+
+
+  

@@ -1,0 +1,13 @@
+.col-md-6 .text-uppercase{
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.col-md-6 {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.clearfix{
+    border: whitesmoke 1px solid;
+}
